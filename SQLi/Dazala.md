@@ -1,4 +1,4 @@
-# SQL Injection Walkthrough
+# Dazala Injection Walk Through
 
 ## Step 1: Test for Input Type
 Begin by testing the input type to understand how the application processes user
