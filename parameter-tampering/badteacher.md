@@ -1,4 +1,4 @@
-# Bad Teacher tempering
+# Bad Teacher 
 
 ## Description
 This is a simple web application that allows teachers to view their students' profiles. The teacher can log in with the provided password and view the students' names. The teacher can then click on the student's name to view their profile.
