@@ -29,7 +29,8 @@ jobs:
           pandoc "$mdfile" -o "$txtdir/$(basename "$txtfile")"
         done
 
-    - name: Commit and Push
+    - name: Commit and Push Changes
+      if: success() && github.event_name == 'push'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -44,3 +45,7 @@ jobs:
       with:
         name: converted-txt-files
         path: txt/
+        retention-days: 1 # Adjust the retention period here (up to 90 days)
+
+    - name: Add Link to Summary
+      run: echo "::notice::📎 [Click here to download the TXT files artifact](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})"
