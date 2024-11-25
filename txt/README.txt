@@ -59,3 +59,12 @@ Or using GitHub Desktop
 
 We appreciate your contributions and will review your pull request as
 soon as possible. Thank you for helping us improve this!
+
+Workflow to Convert Markdown Files to Text
+------------------------------------------
+
+This repository includes a workflow to convert markdown files to text
+files. The workflow is defined in
+`.github/workflows/ConvertMarkDowntoTXT.yml`. It runs on push to the
+main branch and can also be manually triggered. The converted text files
+are stored in the `txt` directory.
