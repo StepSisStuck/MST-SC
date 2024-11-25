@@ -1,5 +1,8 @@
 # Bad Teacher
 
+## Description
+This is a simple web application that allows teachers to view their students' profiles. The teacher can log in with the provided password and view the students' names. The teacher can then click on the student's name to view their profile.
+
 ## Step to reproduce 
 1. Go to the login page with the provided password
 > username: `s12345`
@@ -20,4 +23,3 @@ to this
 
 6. Click on view profile, this will show you the student's profile of Nicole Fang
 
- 
