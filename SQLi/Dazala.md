@@ -37,3 +37,8 @@ This query retrieves the username and password columns from the users table.
 The table displays the root’s password, which can be used to sign in.
 
 
+
+## Solution
+
+Username: root
+Password: secure123
