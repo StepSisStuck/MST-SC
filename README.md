@@ -37,3 +37,7 @@ Or using GitHub Desktop
 6. **Create a pull request**: Go to the original repository on GitHub and click the "New pull request" button. Select your branch and provide a clear description of your changes. Submit the pull request for review.
 
 We appreciate your contributions and will review your pull request as soon as possible. Thank you for helping us improve this!
+
+## Workflow to Convert Markdown Files to Text
+
+This repository includes a workflow to convert markdown files to text files. The workflow is defined in `.github/workflows/ConvertMarkDowntoTXT.yml`. It runs on push to the main branch and can also be manually triggered. The converted text files are stored in the `txt` directory.
