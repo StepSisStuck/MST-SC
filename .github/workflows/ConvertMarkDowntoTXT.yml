@@ -39,5 +39,8 @@ jobs:
         git commit -m "Convert Markdown files to Text"
         git push
 
-    - name: Add Link to Summary
-      run: echo "::notice::📎 [Click here to view the converted TXT files](txt/)"
+    - name: Upload TXT Files as Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: converted-txt-files
+        path: txt/
