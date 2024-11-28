@@ -56,3 +56,9 @@ Use a hash decoder to decrypt the password.
 Decoded Password: adawong
 ## Step 7: Login
 Use the extracted username and the decoded password to log in.
+
+
+# Solution
+Username: LeonSKennedy
+Password: adawong
+MD5 Hashed Password: 662c8305f6ee26939b4dad53406e6228
