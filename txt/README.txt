@@ -66,5 +66,5 @@ Workflow to Convert Markdown Files to Text
 This repository includes a workflow to convert markdown files to text
 files. The workflow is defined in
 `.github/workflows/ConvertMarkDowntoTXT.yml`. It runs on push to the
-main branch and can also be manually triggered. The converted text files
-are stored in the `txt` directory.
+main branch, IT WILL NOT WORK IF YOU TRIGGER IT MANUALLY. The converted
+text files are stored in the `txt` directory.
