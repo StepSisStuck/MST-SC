@@ -23,6 +23,11 @@ SQL Injection (SQLi) is a type of web application attack where an attacker manip
    - Tampered Query: `SELECT name, email FROM users WHERE id = 1 UNION SELECT credit_card_number, cvv FROM credit_cards`
    - Impact: An attacker can retrieve sensitive information from another table by using the UNION operator.
 
+3. **Blind SQL Injection**
+   - Original Query: `SELECT * FROM users WHERE username = 'admin' AND password = 'password'`
+   - Tampered Query: `SELECT * FROM users WHERE username = 'admin' AND password = 'password' AND 1=IF(1=1, SLEEP(5), 0)`
+   - Impact: An attacker can infer information from the database by observing the response time.
+
 ### Code Snippets
 1. **Error-based SQL Injection**
    ```python
@@ -40,6 +45,15 @@ SQL Injection (SQLi) is a type of web application attack where an attacker manip
    
    # Tampered Query
    tampered_query = query + " UNION SELECT credit_card_number, cvv FROM credit_cards"
+   ```
+
+3. **Blind SQL Injection**
+   ```python
+   # Original Query
+   query = "SELECT * FROM users WHERE username = 'admin' AND password = 'password'"
+   
+   # Tampered Query
+   tampered_query = query + " AND 1=IF(1=1, SLEEP(5), 0)"
    ```
 
 ### Prevention Techniques
