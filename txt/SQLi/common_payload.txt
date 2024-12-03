@@ -999,39 +999,36 @@ perform a denial-of-service attack.
 
 -   SQL Injection ( OWASP )
 
-👉 https://www.owasp.org/index.php/SQL\_Injection
+https://www.owasp.org/index.php/SQL\_Injection
 
 -   Blind SQL Injection
 
-👉 https://www.owasp.org/index.php/Blind\_SQL\_Injection
+https://www.owasp.org/index.php/Blind\_SQL\_Injection
 
 -   Testing for SQL Injection (OTG-INPVAL-005)
 
-👉
 https://www.owasp.org/index.php/Testing\_for\_SQL\_Injection\_(OTG-INPVAL-005)
 
 -   SQL Injection Bypassing WAF
 
-👉 https://www.owasp.org/index.php/SQL\_Injection\_Bypassing\_WAF
+https://www.owasp.org/index.php/SQL\_Injection\_Bypassing\_WAF
 
 -   Reviewing Code for SQL Injection
 
-👉 https://www.owasp.org/index.php/Reviewing\_Code\_for\_SQL\_Injection
+https://www.owasp.org/index.php/Reviewing\_Code\_for\_SQL\_Injection
 
 -   PL/SQL:SQL Injection
 
-👉 https://www.owasp.org/index.php/PL/SQL:SQL\_Injection
+https://www.owasp.org/index.php/PL/SQL:SQL\_Injection
 
 -   Testing for NoSQL injection
 
-👉 https://www.owasp.org/index.php/Testing\_for\_NoSQL\_injection
+https://www.owasp.org/index.php/Testing\_for\_NoSQL\_injection
 
 -   SQL Injection Injection Prevention Cheat Sheet
 
-👉
 https://cheatsheetseries.owasp.org/cheatsheets/Injection\_Prevention\_Cheat\_Sheet.html
 
 -   SQL Injection Query Parameterization Cheat Sheet
 
-👉
 https://cheatsheetseries.owasp.org/cheatsheets/Query\_Parameterization\_Cheat\_Sheet.html
