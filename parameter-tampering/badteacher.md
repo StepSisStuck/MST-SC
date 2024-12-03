@@ -18,7 +18,7 @@ This is a simple web application that allows teachers to view their students' pr
 
 to this
 ```html
-<select class="form-control" name="username"> <option value="p5678901">Nicholas Lim</option> <option value="p5678903">Susan Leah Michael</option> <option value="p5678904">Timothy Chang</option> </select>
+<select class="form-control" name="username"> <option value="p5678901">Nicholas Lim</option> <option value="p5678903">Susan Leah Michael</option> <option value="p5678904">Timothy Chang</option> <option value="p5678901"> Nicole Fong </option> </select>
 ```
 
 6. Click on view profile, this will show you the student's profile of Nicole Fang
