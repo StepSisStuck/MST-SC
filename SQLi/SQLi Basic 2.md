@@ -3,9 +3,9 @@
 ## Description
 The hint shows that it hates
 
-> The password is hashed for database comparison
+- The password is hashed for database comparison
 
-> System filters out some characters it hates like comments
+- System filters out some characters it hates like comments
 
 
 ## Solution
